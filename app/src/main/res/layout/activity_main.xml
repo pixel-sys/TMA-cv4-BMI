@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/pohlavie"
+        android:text="@string/muz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- textovú popisku pre výšku -->
+    <TextView
+        android:id="@+id/textViewVyska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vyska[cm]" />
+
+    <!-- editovateľné pole pre výšku -->
+    <EditText
+        android:id="@+id/editTextVyska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="420"/>
+
+    <!-- textovú popiska pre hmotnosť -->
+    <TextView
+        android:id="@+id/textViewHmotnost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hmotnost [freedom units]" />
+
+    <!-- editovateľné pole pre hmotnosť -->
+    <EditText
+        android:id="@+id/editTextHmotnost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="69"/>
+
+    <!-- upravte Button, aby spustil metódu onClick-->
+    <Button
+        android:id="@+id/vypcet"
+        android:text="@string/vypocet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickVypocet"
+        />
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        />
+    <TextView
+        android:id="@+id/stav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"/>
+
+</LinearLayout>

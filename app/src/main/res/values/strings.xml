@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Výpočet BMI</string>
+    <string name="vypocet">Výpočet</string>
+    <string name="muz">Muž</string>
+    <string name="zena">Žena</string>
+    <string name="podvaha">Podváha</string>
+    <string name="normalna">Normálna hmotnosť</string>
+    <string name="obezita1">Obezita I. stupňa</string>
+    <string name="obezita2">Obezita II. stupňa</string>
+    <string name="obezita3">Obezita III. stupňa</string>
+    <string name="nadvaha">Nadváha</string>
+</resources>
